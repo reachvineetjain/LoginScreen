@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Animated Login Screen</string>
+
+    <string name="sign_up_label" translatable="true">Sign Up</string>
+    <string name="log_in_label" translatable="true">Log In</string>
+    <string name="forgot_password" translatable="true">Forgot Password?</string>
+    <string name="password_hint" translatable="true">Password</string>
+    <string name="email_hint" translatable="true">Email</string>
+    <string name="confirm_hint" translatable="true">Confirm Password</string>
+    <string name="logo_img" translatable="true">Logo Img</string>
+    <string name="twitter_img" translatable="true">twitter img</string>
+    <string name="linkedin_img" translatable="true">LinkedIn Img</string>
+    <string name="facebook_img" translatable="true">Facebook Img</string>
+    <string name="background_image" translatable="true">Background Image</string>
+    <string name="loginSignin" translatable="false">loginsignin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="your_app">Your Application</string>
+    <string name="log_out">Log Out</string>
+    <string name="welcome">Welcome</string>
+
+</resources>
+
