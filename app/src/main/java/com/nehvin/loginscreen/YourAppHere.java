@@ -71,13 +71,17 @@ public class YourAppHere extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.logout && mAuth!= null) {
-
-            mAuth.signOut();
-            welcome.setText("Goodbye");
-            Toast.makeText(YourAppHere.this, "Logout Clicked", Toast.LENGTH_LONG).show();
+            signOut();
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void signOut(){
+        mAuth.signOut();
+        welcome.setText("Goodbye");
+        Toast.makeText(YourAppHere.this, "Logout Clicked", Toast.LENGTH_LONG).show();
+        finish();
     }
 }
